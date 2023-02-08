@@ -1,0 +1,135 @@
+body {
+    background-color: black;
+    padding: 15px;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+section {
+    margin-bottom: 10px;
+}
+
+a {
+    display: block;
+    border-radius: 50%;
+    border-style: solid;
+    border-color: white;
+    border-width: 1px;
+}
+
+
+
+.social-media i {
+    color: white;
+    scale: 0.7;
+    margin: 10px;
+}
+.social-media a:hover i {
+    color: #8a3ab9;
+}
+.social-media a:nth-child(1) {
+    width: 40px;
+    margin-left: auto;
+}
+
+
+
+.header {
+    background-color: gray;
+    color: white;
+    padding: 50px 20px 20px 20px;
+    margin: 0;
+    border-radius: 15px;
+    display: flex;
+}
+.header img {
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+    margin-left: auto;
+}
+
+
+
+.objective {
+    color: darkgrey;
+    font-size: 12px;
+    padding: 10px 0;
+}
+.objective span {
+    padding: 4px;
+    border-style: solid;
+    border-color: darkgrey;
+    border-width: 1px;
+    border-radius: 10px;
+}
+
+
+
+.body {
+    display: flex;
+    justify-content: space-between;
+}
+.body div {
+    width: 30%;
+    height: 200px;
+    border-radius: 15px;
+    padding: 15px;
+    font-size: 14px;
+}
+.body div:nth-child(1) {
+    color: white;
+    word-wrap: break-word;
+    border-style: solid;
+    border-color: darkgrey;
+    border-width: 1px;
+}
+.body div span {
+    padding: 3px;
+    border-style: solid;
+    border-color: black;
+    border-width: 1px;
+    border-radius: 10px;
+}
+.body div:nth-child(1) span {
+    border-color: white;
+}
+.body div:nth-child(2) {
+    background-color: darkorange;
+}
+.body div:nth-child(3) {
+    background-color: violet;
+}
+.body div p:nth-child(1) {
+    margin-bottom: 60px;
+}
+
+
+
+footer {
+    border-top-style: solid;
+    border-color: white;
+    border-width: 2px;
+    padding: 10px;
+    margin-top: 30px;
+}
+footer p {
+    color: white;
+    font-size: 12px;
+    text-align: center;
+}
+
+@media only screen and (max-width: 1000px) {
+    .body {
+        flex-direction: column;
+        align-items: center;
+        height: 650px;
+    }
+    .body div {
+        width: 90%;
+        height: 180px;
+        border-radius: 15px;
+        padding: 15px;
+        font-size: 14px;
+    }
+}
